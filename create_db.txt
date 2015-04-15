@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS `users` (	 
+	`ID` int(10) NOT NULL AUTO_INCREMENT,
+     	`familyname` varchar(50) NOT NULL,
+	`name` varchar(50) NOT NULL,
+     	`username` varchar(50) CHARACTER SET utf8 NOT NULL,
+     	`password` varchar(50) CHARACTER SET utf8 NOT NULL,
+	`email` varchar(50) CHARACTER SET utf8 NOT NULL,	 
+	`birthday` varchar(10) NOT NULL,
+	`phone` varchar(11) NOT NULL,
+	`avatar` varchar(50) NOT NULL,
+	`token` varchar(50) NOT NULL,
+	PRIMARY KEY (`ID`)	 
+	) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;

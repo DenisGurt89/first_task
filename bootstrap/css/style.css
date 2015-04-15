@@ -1,0 +1,96 @@
+.wrapper {
+	background: url('../../uploads/main_bg.png');
+	margin-bottom: 50px;
+}
+.header {
+	height: 100px;
+	background: #1870C7;
+}
+.logo {
+	font: 2em HeliosThin, Impact, sans-serif;
+	margin-top: 10px;
+	margin-left: 60px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.user-menu {
+	float: right;
+	margin: 10px 0 10px 0;
+	color: #fff;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.content {
+	background: #eee;
+	height: auto;
+	min-height: 900px;
+	padding: 10px 50px 50px 50px;
+}
+.form {
+	width: 800px;
+	background: #1B1B1B;
+	margin: 0 auto;
+	padding: 5px;
+	margin-top: 40px;
+	color: #999;
+}
+.form h3 {
+	color: #1870C7;
+	text-align: center;
+	margin-bottom: 0;
+}
+.rezume {
+	margin-top: 50px;
+}
+.phone_icon {
+	background: url('../../uploads/icon-phone.png');
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+}
+.eim {
+	margin-top: 40px;
+}
+hr {
+border-top: 1px solid #000;
+}
+.user-menu img,
+.rezume img,
+.profile img {
+	display: block-inline;
+	padding: 4px;
+	line-height: 20px;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.055);
+	transition: all 0.2s ease-in-out 0s;
+}
+.profile_name {
+	font-size: 24px;
+}
+.birthday {
+    cursor: pointer !important;
+}
+.controls {
+	position: relative !important;
+}
+.help-block > ul {
+	display: inline-block !important;
+	position: absolute;
+	top: 5px;
+	left: 210px;
+    list-style: none !important;
+}
+.captcha {
+	margin-top: 20px;
+}
+.edit_link {
+	margin-top: 20px;
+}
+.footer {
+	background: #1B1B1B;
+	padding: 5px;
+	height: 50px;
+	color: #555;
+}
